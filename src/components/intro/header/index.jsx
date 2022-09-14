@@ -1,6 +1,7 @@
 import React from "react";
-import { MENU } from "../../data/header";
+import { MENU } from "../../../data/header";
 import { Ul, Li, A, Header, Nav, StatusButton } from "./style";
+import Bar from "./bar/index";
 
 const Menu = () => {
   return (
@@ -17,7 +18,7 @@ const Menu = () => {
           })}
         </Ul>
         <StatusButton>Login</StatusButton>
-        <i class="fa fa-bars fa-2x"></i>
+        <Bar />
       </Nav>
     </Header>
   );

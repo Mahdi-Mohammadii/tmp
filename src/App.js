@@ -1,7 +1,7 @@
 import React from "react";
-import Menu from "./components/menu/index";
+import Intro from "./components/intro";
 function App() {
-  return <Menu />;
+  return <Intro />;
 }
 
 export default App;
