@@ -1,27 +1,19 @@
 import React from "react";
-import { MENU } from "../../../data/header";
-import { Ul, Li, A, Header, Nav, StatusButton } from "./style";
-import Bar from "./bar/index";
 
 const Menu = () => {
-  return (
-    <Header>
-      <Nav>
-        <img src="/assets/logo.svg" alt="logo" />
-        <Ul>
-          {MENU.map((item) => {
-            return (
-              <Li key={item.id}>
-                <A href={item.link}>{item.txt}</A>
-              </Li>
-            );
-          })}
-        </Ul>
-        <StatusButton>Login</StatusButton>
-        <Bar />
-      </Nav>
-    </Header>
-  );
+  return(
+      <nav className="header__nav">
+        <img src="/assets/logo.svg" alt="Logo" />
+        <ul className="header__nav__ul">
+          <li><a href="/">HOME</a></li>
+          <li><a href="/">POPULAR</a></li>
+          <li><a href="/">NEW COMER</a></li>
+          <li><a href="/">ABOUT</a></li>
+        </ul>
+        <button className="header__nav__button">Login</button>
+        <i className="fa fa-bars fa-2x header__nav__i"></i>
+      </nav>
+  )
 };
 
 export default Menu;

@@ -1,16 +1,42 @@
 import React from "react";
-import { Section, Img, Title, Description } from "./style";
 
 const TopSection = () => {
   return (
-    <Section>
-      <Img src="/assets/assets_1.svg" alt="assets" />
-      <Title>Tools for Designer, Developer, and Business Owner</Title>
-      <Description>
-        Information about the latest and most popular design and developer tools
-        around the world.
-      </Description>
-    </Section>
+    <>
+     <div className="header__container">
+        <img
+          src="/assets/assets_1.svg"
+          alt="banner"
+          className="header__container__banner"
+        />
+        <p className="header__container__title">
+          Tools for Designer, Developer, and Business Owner
+        </p>
+        <p className="header__container__info">
+          Information about the latest and most popular design and developer
+          tools around the world.
+        </p>
+        <button className="header__container__button">Explore Now</button>
+        <div className="header__container__avatar-group">
+          <img
+            src="/assets/avatar.png"
+            alt="avatar"
+            className="header__container__avatar-group__avatar"
+          />
+          <img
+            src="/assets/avatar.png"
+            alt="avatar"
+            className="header__container__avatar-group__avatar"
+          />
+          <label className="header__container__avatar-group__users"
+            ><span className="header__container__avatar-group__users__number"
+              >4,000+</span
+            >
+            User using the tools</label
+          >
+        </div>
+      </div>
+    </>
   );
 };
 
