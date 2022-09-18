@@ -22,16 +22,16 @@ const Testimonial = () => {
               borderRadius: "8px",
             }}
           >
-            <img
-              src="/assets/logo.svg"
-              alt="brand"
-              style={{ display: "block", margin: "0 auto" }}
-            />
             <p>
               Search the world's information, including webpages, images,videos
               and more. Google has many special features to help you find
               exactly what you're looking
             </p>
+            <img
+              src="/assets/logo.svg"
+              alt="brand"
+              style={{ display: "block", margin: "0" }}
+            />
           </div>
           <div
             style={{
@@ -40,16 +40,16 @@ const Testimonial = () => {
               borderRadius: "8px",
             }}
           >
-            <img
-              src="/assets/logo.svg"
-              alt="brand"
-              style={{ display: "block", margin: "0 auto" }}
-            />
             <p>
               Search the world's information, including webpages, images,videos
               and more. Google has many special features to help you find
               exactly what you're looking
             </p>
+            <img
+              src="/assets/logo.svg"
+              alt="brand"
+              style={{ display: "block", margin: "0" }}
+            />
           </div>
           <div
             style={{
@@ -58,16 +58,16 @@ const Testimonial = () => {
               borderRadius: "8px",
             }}
           >
-            <img
-              src="/assets/logo.svg"
-              alt="brand"
-              style={{ display: "block", margin: "0 auto" }}
-            />
             <p>
               Search the world's information, including webpages, images,videos
               and more. Google has many special features to help you find
               exactly what you're looking
             </p>
+            <img
+              src="/assets/logo.svg"
+              alt="brand"
+              style={{ display: "block", margin: "0" }}
+            />
           </div>
         </article>
       </section>

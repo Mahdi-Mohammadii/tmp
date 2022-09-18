@@ -4,12 +4,13 @@ const Subscribe = () => {
   return (
     <section
       style={{
+        color: "#ffffff",
         display: "flex",
         flexWrap: "wrap",
         justifyContent: "center",
         backgroundColor: "#1F2E35",
-        padding:"20px",
-        margin:"0"
+        padding: "20px",
+        margin: "0",
       }}
     >
       <h2 style={{ width: "100%" }}>Subscribe</h2>
