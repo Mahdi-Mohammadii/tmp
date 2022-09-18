@@ -1,4 +1,7 @@
 @media screen and (min-width:576px) and (max-width: 767px)
+    header
+        background-color: $dark-blue
+        width: 100%
     .header__nav
         padding: 3% 5%
     .header__nav__ul
@@ -11,7 +14,9 @@
                     margin-left: 32px
     .header__nav__i
         display: none
-
+    .top-section
+        width: 100%
+        background-color: $dark-blue
     .header__container
         padding: 23px 5% 46px 5%
 
@@ -35,21 +40,50 @@
         grid-column: 1 / span 2
         grid-row: 4
 
-    .new-comer
+    .comer__new-comer
         display: flex
         flex-wrap: wrap
         justify-content: center
         gap: 30px
         margin-top: 50px
-        .card
+        .comer__new-comer__card
             width: 300px
             border: 1px solid #ccc
             border-radius: 8px
             padding: 20px
-            .image-card
+            .comer__new-comer__card__image-card
                 background-color: #F5F5F5
                 border-radius: 8px
                 padding: 8px
                 img
                     margin: 0 70px
 
+    .footer
+        background-color: #1F2E35
+        color: $header-font-color
+        .footer__container
+            display: flex
+            margin: 0 auto
+            padding: 25px
+            border-top: 1px solid #666666
+            max-width: 1600px
+            .footer__container__social
+                display: grid
+                gap: 4px
+                width: 25%
+                align-items: center
+                justify-content: start
+                justify-items: center
+                .footer__container__social__logo
+                    grid-row: 1
+                    grid-column: 1
+                .footer__container__social__title
+                    grid-row: 1
+                    margin: auto
+                .footer__container__social__image
+                    grid-row: 2
+        .footer__container__links
+            width: 20%
+            margin-left: 12px
+        .resource
+            margin-left: 32px

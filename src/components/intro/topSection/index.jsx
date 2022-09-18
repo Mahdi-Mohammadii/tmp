@@ -2,8 +2,8 @@ import React from "react";
 
 const TopSection = () => {
   return (
-    <>
-     <div className="header__container">
+    <section className="top-section">
+      <div className="header__container">
         <img
           src="/assets/assets_1.svg"
           alt="banner"
@@ -28,15 +28,15 @@ const TopSection = () => {
             alt="avatar"
             className="header__container__avatar-group__avatar"
           />
-          <label className="header__container__avatar-group__users"
-            ><span className="header__container__avatar-group__users__number"
-              >4,000+</span
-            >
-            User using the tools</label
-          >
+          <label className="header__container__avatar-group__users">
+            <span className="header__container__avatar-group__users__number">
+              4,000+
+            </span>
+            User using the tools
+          </label>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

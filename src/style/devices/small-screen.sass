@@ -1,11 +1,16 @@
 @media screen and (max-width: 575px)
+    header
+        background-color: $dark-blue
+        width: 100%
     .header__nav
         padding: 3% 6% 3% 8%
         .header__nav__i
             width: 100%
             direction: rtl
             margin: auto
-
+    .top-section
+        width: 100%
+        background-color: $dark-blue
     .header__nav__ul
         display: none
         text-align: center
@@ -16,24 +21,82 @@
         left: 0
         li
             margin-bottom: 16px
-
     .header__nav__button
         display: none
-
     .header__container
         padding: 23px 10% 46px 10%
 
-    .new-comer
+    .popular-tools
         display: flex
         flex-wrap: wrap
         justify-content: center
         gap: 30px
         margin-top: 50px
-        .card
+        .popular-tools__card
             width: 360px
             height: 432px
             border: 1px solid #ccc
             border-radius: 8px
             padding: 20px
-            image-card
-            grid-row: 1/span 7
+            &:hover
+                box-shadow: 0px 32px 56px rgba(0, 0, 0, 0.08)
+            .popular-tools__card__image-card
+                background-color: #F5F5F5
+                width: 100%
+                img
+                    width: 100px
+                    margin: 40px 115px
+                    h4
+                        width: 80%
+                    p
+                        text-align: left
+
+    .comer__new-comer
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        gap: 30px
+        margin-top: 50px
+        .comer__new-comer__card
+            width: 360px
+            height: 432px
+            border: 1px solid #ccc
+            border-radius: 8px
+            padding: 20px
+            &:hover
+                box-shadow: 0px 32px 56px rgba(0, 0, 0, 0.08)
+            .comer__new-comer__card__image-card
+                background-color: #F5F5F5
+                width: 100%
+                img
+                    width: 100px
+                    margin: 40px 115px
+
+    .footer
+        background-color: #1F2E35
+        color: $header-font-color
+        .footer__container
+            display: flex
+            flex-wrap: wrap
+            margin: 0 auto
+            padding: 25px
+            border-top: 1px solid #666666
+            max-width: 1600px
+            justify-content: start
+            .footer__container__social
+                display: grid
+                gap: 4px
+                width: 100%
+                align-items: center
+                justify-content: start
+                justify-items: center
+                .footer__container__social__logo
+                    grid-row: 1
+                    grid-column: 1
+                .footer__container__social__title
+                    grid-row: 1
+                    margin: auto
+                .footer__container__social__image
+                    grid-row: 2
+        .footer__container__links
+            width: 100%

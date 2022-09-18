@@ -7,12 +7,12 @@ const Popular = () => {
         <h2>Most Popular Tools</h2>
         <p>Most popular tools for designer and developer</p>
         <article className="popular-tools">
-          <div className="card">
-            <div className="image-card">
+          <div className="popular-tools__card">
+            <div className="popular-tools__card__image-card">
               <img src="/assets/Group_1498.svg" alt="InVision" />
             </div>
-            <div className="description">
-              <div className="title">
+            <div className="popular-tools__card__description">
+              <div className="popular-tools__card__description__title">
                 <h4>InVision</h4>
                 <h5>FREE</h5>
               </div>
@@ -20,18 +20,18 @@ const Popular = () => {
                 InVision is the digital product design platform used to make the
                 world's best customer experiences.
               </p>
-              <div className="tag">
+              <div className="popular-tools__card__description__tag">
                 <p>Design</p>
                 <p>Development</p>
               </div>
             </div>
           </div>
-          <div className="card">
-            <div className="image-card">
+          <div className="popular-tools__card">
+            <div className="popular-tools__card__image-card">
               <img src="/assets/Group_1498.svg" alt="InVision" />
             </div>
-            <div className="description">
-              <div className="title">
+            <div className="popular-tools__card__description">
+              <div className="popular-tools__card__description__title">
                 <h4>InVision</h4>
                 <h5>FREE</h5>
               </div>
@@ -39,18 +39,18 @@ const Popular = () => {
                 InVision is the digital product design platform used to make the
                 world's best customer experiences.
               </p>
-              <div className="tag">
+              <div className="popular-tools__card__description__tag">
                 <p>Design</p>
                 <p>Development</p>
               </div>
             </div>
           </div>
-          <div className="card">
-            <div className="image-card">
+          <div className="popular-tools__card">
+            <div className="popular-tools__card__image-card">
               <img src="/assets/Group_1498.svg" alt="InVision" />
             </div>
-            <div className="description">
-              <div className="title">
+            <div className="popular-tools__card__description">
+              <div className="popular-tools__card__description__title">
                 <h4>InVision</h4>
                 <h5>PREMIUM</h5>
               </div>
@@ -58,7 +58,7 @@ const Popular = () => {
                 InVision is the digital product design platform used to make the
                 world's best customer experiences.
               </p>
-              <div className="tag">
+              <div className="popular-tools__card__description__tag">
                 <p>Design</p>
                 <p>Development</p>
               </div>

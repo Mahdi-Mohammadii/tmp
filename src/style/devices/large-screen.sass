@@ -1,7 +1,10 @@
 @media screen and (min-width: 768px)
+    header
+        background-color: $dark-blue
+        width: 100%
     .header__nav
         padding: 18px 5%
-        max-width: 1140
+        max-width: 1600px
         margin: auto
         .header__nav__ul
             width: 100%
@@ -13,12 +16,13 @@
                         margin-left: 77px
     .header__nav__i
         display: none
-
+    .top-section
+        width: 100%
+        background-color: $dark-blue
     .header__container
         padding: 60px 5% 50px 5%
-        max-width: 1140
+        max-width: 1600px
         margin: auto
-
     .header__container__banner
         grid-column: 3/span 4
         grid-row: 1/span 4
@@ -30,41 +34,40 @@
         font-size: 40px
         line-height: 61px
         letter-spacing: 0.2px
-
     .header__container__info
         grid-column: 1 / span 2
         grid-row: 2
         text-align: left
-
     .header__container__button
         grid-column: 1 / span 2
         grid-row: 3
         margin: 0
-
     .header__container__avatar-group
         grid-column: 1 / span 2
         grid-row: 4
         margin: 0
-
-    .new-comer
+    .comer__new-comer
         display: flex
         flex-wrap: wrap
         justify-content: center
         gap: 50px
         margin-top: 50px
-        .card
+        padding: 60px 5% 50px 5%
+        .comer__new-comer__card
+            max-width: 1600px
             width: 500px
             display: grid
             border: 1px solid #ccc
             border-radius: 8px
             padding: 12px
-            .image-card
+            background-color: #ffffff
+            .comer__new-comer__card__image-card
                 border-radius: 8px
                 background-color: #F5F5F5
                 height: min-content
                 padding: 20px
                 margin: auto 0
-            .description
+            .comer__new-comer__card__description
                 grid-row: 1
                 grid-column: 2/span3
                 margin-left: 8px
@@ -72,3 +75,33 @@
                     margin: 0 0 16px 0
                 p
                     text-align: left
+
+    .footer
+        background-color: #1F2E35
+        color: $header-font-color
+        .footer__container
+            display: flex
+            margin: 0 auto
+            padding: 25px
+            border-top: 1px solid #666666
+            max-width: 1600px
+            .footer__container__social
+                display: grid
+                gap: 8px
+                width: 25%
+                align-items: center
+                justify-content: start
+                justify-items: center
+                .footer__container__social__logo
+                    width: 40px
+                    grid-row: 1
+                    grid-column: 1
+                .footer__container__social__title
+                    grid-row: 1
+                    margin: auto
+                .footer__container__social__image
+                    grid-row: 2
+                    width: 40px
+                    height: 40px
+        .footer__container__links
+            width: 25%

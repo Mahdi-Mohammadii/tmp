@@ -7,12 +7,14 @@ import Popular from "./popular";
 import Subscribe from "./subscribe";
 import Testimonial from "./testimonial";
 import TopSection from "./topSection";
+import Tools from "./tool"
 
 const Intro = () => {
   return (
     <>
       <Menu />
       <TopSection />
+      <Tools />
       <Popular />
       <NewComer />
       <Brands />
